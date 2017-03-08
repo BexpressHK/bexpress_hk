@@ -1,16 +1,12 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "Bexpress Internet Logistics (Hong Kong) Ltd",
+    "description": "Online Logistics Services Department Store | Pioneer of Cross-border & eCommerce Logistics",
+    "keywords": ["Logistics", "Services", "Cross-border", "eCommerce"],
+    "homepage": "https://www.bexpress.hk/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "source": "https://github.com/BexpressHK/bexpress_hk"
     },
     "minimum-stability": "stable",
     "require": {
@@ -23,7 +19,13 @@
         "inacho/php-credit-card-validator": "^1.0",
         "beaudierman/ups": "^1.1",
         "gabrielbull/ups-api": "^0.7.11",
-        "shippo/shippo-php": "^1.2"
+        "shippo/shippo-php": "^1.2",
+        "theseer/autoload": "^1.23",
+        "codeception/codeception": "^2.2",
+        "twbs/bootstrap": "^3.3",
+        "components/jquery": "^3.1",
+        "components/jqueryui": "1.12.1",
+        "alfallouji/dhl_api": "^0.2.10"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
